@@ -30,8 +30,8 @@ MSFSのマルチプレイ等で、他のプレイヤー名やAI機の機体番�
 
 ## 使い方
 
-* オプションの `SHOW TRAFFIC NAMEPLATES` はON
-* キーボードの `BackSpace` を押すと非表示、もう1回で再表示
+* オプションの `SHOW TRAFFIC NAMEPLATES` はONにしておく
+* キーボードの `BackSpace` を押すと非表示にできる、もう1回で再表示
 * * `F12` や `NumLock` でも可能、ファイル弄ればキーアサイン変更もできるらしい
 
 ---
