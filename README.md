@@ -23,6 +23,7 @@
 
 3. (見た目を元通りのスタイルに戻したい場合は)下記のファイルを差し替え
 > [uimod]-mugz-tinyplates\html_ui\mCSS\mugzIGMAT.css
+* [差し替え用ファイル](https://raw.githubusercontent.com/berry1225/msfs-hiddenui-enhance/main/mugzIGMAT.css)
 
 ---
 
