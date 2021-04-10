@@ -1,0 +1,56 @@
+﻿:root {
+  --igm-block: block; /* Default state */
+  --igm-flex: flex; /* Default state */
+  --opacity: 0.8; /* Transparency */
+  --detail-display: flex; /* Draw data block?. Yes - flex, No - none */
+  --separator-display: block; /* Draw separator?. Yes - block, No - none */
+  --anim-time: .5s; /* Animation speed */
+}
+igm-airtraffic-3d {
+  display: var(--igm-flex);
+  justify-content: space-around;
+  opacity: var(--opacity);
+}
+igm-airtraffic-3d .name {
+  text-transform: none;
+}
+igm-airtraffic-3d.detailed .name {
+  margin-bottom: 0;
+}
+igm-airtraffic-3d .data {
+  display: flex;
+  justify-content: space-around;
+  animation: data var(--anim-time) infinite;
+}
+igm-airtraffic-3d.detailed .data {
+  display: flex;
+  opacity: var(--opacity);
+}
+igm-airtraffic-3d .data span {
+  text-shadow: none;
+}
+igm-airtraffic-3d .data-item {
+  display: var(--detail-display);
+  max-width: 100%;
+  text-transform: none;
+}
+igm-airtraffic-3d .data-item[data-type="PLANE_TYPE"] {
+  width: 50%;
+  box-align: right;
+  justify-content: flex-end;
+}
+igm-airtraffic-3d .data-item[data-type="PLANE_ALTITUDE"] {
+  width: 50%;
+  box-align: left;
+  justify-content: flex-start;
+  text-transform: lowercase;
+  flex: unset;
+}
+igm-airtraffic-3d .data .separator {
+  display: var(--separator-display);
+  animation: separator var(--anim-time) infinite;
+  margin: 0px 8px;
+}
+igm-airtraffic-3d .data.condensed .separator {
+  margin: 0px 8px;
+}
