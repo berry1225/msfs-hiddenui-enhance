@@ -3,7 +3,7 @@
 ## あらすじ
 
 マルチプレイ等で他のプレイヤー名やAI機の機体番号を非表示にしたい場合、
-オプションの「SHOW TRAFFIC NAMEPLATES」をOFFにする必要があります。
+オプションの `SHOW TRAFFIC NAMEPLATES` をOFFにする必要があります。
 
 しかしONとOFFの切り替えのためにはポーズが必要なので、
 飛行しながらシームレスに切り替えることは現状ではできません。(※2021年4月時点)
@@ -24,6 +24,14 @@
 3. (見た目を元通りのスタイルに戻したい場合は)下記のファイルを差し替え
 > [uimod]-mugz-tinyplates\html_ui\mCSS\mugzIGMAT.css
 * [差し替え用ファイル](https://raw.githubusercontent.com/berry1225/msfs-hiddenui-enhance/main/mugzIGMAT.css)
+
+---
+
+## 使い方
+
+* オプションの `SHOW TRAFFIC NAMEPLATES` はON
+* キーボードの `BackSpace` を押すと非表示、もう1回で再表示
+* * `F12` や `NumLock` でも可能、ファイル弄ればキーアサイン変更もできるらしい
 
 ---
 
